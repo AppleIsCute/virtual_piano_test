@@ -34,7 +34,7 @@ function changecolor() {
     console.log("hellp");
 
 }
-    window.addEventListener('keydown', function (e) {
+    window.addEventListener('key', function (e) {
         if (e.repeat) { return;}
         var keyID = e.code;
         for (let i = 0; i < 12; i++) { // controls assigning keys from c to b
