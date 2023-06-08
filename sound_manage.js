@@ -16,7 +16,7 @@ let Leftkeys = ['KeyZ','KeyS','KeyX','KeyD','KeyC','KeyV', 'KeyG', 'KeyB', 'KeyH
             C6: "C6v14.mp3", 
             C7: "C7v14.mp3",
         },
-        release: 0.8,
+        release: 0.6,
         volume: 0.4,
 
         baseUrl: "https://unpkg.com/@audio-samples/piano-mp3-velocity14@1.0.5/audio/",
