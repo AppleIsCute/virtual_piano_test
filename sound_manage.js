@@ -44,7 +44,7 @@ function changecolor() {
 
             if (event.key===  plain[i]) {
                 piano.triggerAttackRelease(notes[i] + octave.toString(), "8n");
-console.log(i);
+console.log(event.key);
             }
         }
 
