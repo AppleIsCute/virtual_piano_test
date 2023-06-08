@@ -42,7 +42,7 @@ function changecolor() {
         var keyID = event.key;
         for (let i = 0; i < 12; i++) { // controls assigning keys from c to b
 
-            if (keyID ===  plain[i]) {
+            if (event.key===  plain[i]) {
                 piano.triggerAttackRelease(notes[i] + octave.toString(), "8n");
 
             }
@@ -50,7 +50,7 @@ function changecolor() {
 
         for (let i =12; i < 21; i++) { // controls assigning keys from c to b
 
-            if (keyID === plain[i]) {
+            if (event.key === plain[i]) {
                 piano.triggerAttackRelease(notes[i] + (octave+1).toString(), "8n");
 
             }
