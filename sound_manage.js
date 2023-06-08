@@ -3,7 +3,7 @@ let notes = ['C', 'C#', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'G#', 'A', 'Bb', 'B', 'C
 let Rightkeys = ['KeyQ', 'Digit2', 'KeyW', 'Digit3', 'KeyE', 'KeyR', 'Digit5', 'KeyT', 'Digit6', 'KeyY', 'Digit7', 'KeyU', 'KeyI', 'Digit9', 'KeyO', 'Digit0', 'KeyP', 'BracketLeft', 'Equal', 'BracketRight'];
 let Leftkeys = ['KeyZ','KeyS','KeyX','KeyD','KeyC','KeyV', 'KeyG', 'KeyB', 'KeyH', 'KeyN', 'KeyM', 'KeyK', 'Comma', 'KeyL', 'Period', 'Semicolon','Slash'];
 
-let plain = ['`', '1','2','3','4','5','6','7','8','9','0','-','=','Backspace',];
+let plain = ["`", '1','2','3','4','5','6','7','8','9','0','-','=',"Backspace",];
 
 
     octave = 4;
