@@ -39,7 +39,7 @@ function changecolor() {
 }
     window.addEventListener('keypress', function (e) {
         if (e.repeat) { return;}
-        var keyID = e.key;
+        var keyID = event.key;
         for (let i = 0; i < 12; i++) { // controls assigning keys from c to b
 
             if (keyID ===  plain[i]) {
