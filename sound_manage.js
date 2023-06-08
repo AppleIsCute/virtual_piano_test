@@ -3,7 +3,8 @@ let notes = ['C', 'C#', 'D', 'Eb', 'E', 'F', 'F#', 'G', 'G#', 'A', 'Bb', 'B', 'C
 let Rightkeys = ['KeyQ', 'Digit2', 'KeyW', 'Digit3', 'KeyE', 'KeyR', 'Digit5', 'KeyT', 'Digit6', 'KeyY', 'Digit7', 'KeyU', 'KeyI', 'Digit9', 'KeyO', 'Digit0', 'KeyP', 'BracketLeft', 'Equal', 'BracketRight'];
 let Leftkeys = ['KeyZ','KeyS','KeyX','KeyD','KeyC','KeyV', 'KeyG', 'KeyB', 'KeyH', 'KeyN', 'KeyM', 'KeyK', 'Comma', 'KeyL', 'Period', 'Semicolon','Slash'];
 
-let plain = ["`", '1','2','3','4','5','6','7','8','9','0','-','=',"Backspace",];
+let plain = ["`", '1','2','3','4','5','6','7','8','9','0','-','=',"q",'w','e','r','t','y','u','i','o','p',"[","]",];
+
 
 
     octave = 4;
@@ -48,30 +49,32 @@ console.log(event.key);
             }
         }
 
-        for (let i =12; i < 21; i++) { // controls assigning keys from c to b
+        for (let i =12; i < 24; i++) { // controls assigning keys from c to b
 
             if (event.key === plain[i]) {
                 piano.triggerAttackRelease(notes[i] + (octave+1).toString(), "8n");
 console.log(event.key);
             }
         }
+        
+        
 
 
-        for (let i = 7; i <27 ; i++) { // controls assigning keys from c to b
+//         for (let i = 7; i <27 ; i++) { // controls assigning keys from c to b
 
-            if (keyID === Leftkeys[i - 7]) {
+//             if (keyID === Leftkeys[i - 7]) {
 
-                if (i < 12) {
-                    piano.triggerAttackRelease(notes[i] + (octave - 2).toString(), "8n");
-                }
-                if (i >= 12) {
-                    piano.triggerAttackRelease(notes[i] + (octave - 1).toString(), "8n");
-                }
+//                 if (i < 12) {
+//                     piano.triggerAttackRelease(notes[i] + (octave - 2).toString(), "8n");
+//                 }
+//                 if (i >= 12) {
+//                     piano.triggerAttackRelease(notes[i] + (octave - 1).toString(), "8n");
+//                 }
 
-            }
-        }
+//             }
+//         }
 
-    }, false);
+//     }, false);
 
 
 
