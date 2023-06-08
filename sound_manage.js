@@ -52,7 +52,7 @@ console.log(event.key);
 
             if (event.key === plain[i]) {
                 piano.triggerAttackRelease(notes[i] + (octave+1).toString(), "8n");
-
+console.log(event.key);
             }
         }
 
